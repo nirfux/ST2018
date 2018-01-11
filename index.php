@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>My Steemit Friends</title>
+    <title>Steemit החברים שלי </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
@@ -20,16 +20,16 @@
     	<table style="background-color:#2E456D;border-collapse:collapse;border: 5px solid black;">
     	  <tr>
     	   <td class="text-center" style="padding:10px;">
-    	    <h3>My Steemit Friends</h3><br>
+    	    <h3>Steemit חברים שלי</h3><br>
             <form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
               <div class="form-group">
-                <label for="User">1. Type your Steemit UserName:</label><br>
+                <label for="User">1. Steemit שם המשתמש:</label><br>
                 <input id="User" type="text" name="User" value="<? if ($_GET["User"]) { echo $_GET["User"];} ?>" autofocus>
               </div>
               2. Click the following buttons to see:<br><br>
              <button class="btn btn-primary" type="submit">Upvote Stats</button><br>            
             </form>
-            <button class="btn btn-info" onclick="loadDoc()">Follower Ranking</button><br><br>
+            <button class="btn btn-info" onclick="loadDoc()">דירוג העוקבים</button><br><br>
             <p>Created by <a href="http://steemit.com/@magicmonk"><img src="magicmonkhead.png" width="50" height="50">@magicmonk</a></p>
             <p><a href="https://steemit.com/steemit/@magicmonk/mysteemitfriend-s-new-edition-has-more-features-mysteemitfriends">Instructions</a></p>
            </td>
